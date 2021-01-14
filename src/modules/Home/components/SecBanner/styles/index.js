@@ -15,7 +15,16 @@ export const SecondBanner = styled.Image({
 })
 
 export const SecBannerButton = styled.TouchableOpacity({
-    width: 100,
-    height: 50,
-    color: 'black',
+    marginTop:350,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 147,
+    height: 33,
+    backgroundColor: 'black',
+    position: 'absolute',
+})
+
+export const SecBannerButtonText = styled.Text({
+    
+    color: '#FFF',
 })

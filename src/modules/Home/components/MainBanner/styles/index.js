@@ -2,6 +2,7 @@ import styled from 'styled-components/native'
 
 
 export const BannerContent = styled.SafeAreaView({
+    padding:10,
     height: 300,
     alignItems: 'center',
     justifyContent: 'center',
@@ -14,8 +15,15 @@ export const FirstBanner = styled.Image({
 })
 
 export const BannerButton = styled.TouchableOpacity({
-    width: 100,
-    height: 50,
+    alignSelf:'flex-end',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 95,
+    height: 28,
     position: 'absolute',
-    color: 'black'
+    backgroundColor: 'black'
+})
+
+export const BannerButtonText = styled.Text({
+    color: '#FFF',
 })
